@@ -1,14 +1,9 @@
-### Boast
-1. Determine if collide by check if x within 50, same y
+Link: https://github.com/tahngarth825/tahngarth825.github.io
 
 Notes to self:
-
-2. 3 levels
-4. Early levels have cars in only one direction
-5. later levels have cars going in both directions
-6. Early levels have grass every other lane
-7. Later levels have no grass
-8. Reach your mother to win! :D
+1. Put trees in the middle lane of
+  levels w/ grass so can't shoot up
+2. Add: timer,
 
 OPTIONAL:
 1. Skateboard that you can jump onto to ride it down the row
