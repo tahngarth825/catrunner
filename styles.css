@@ -1,0 +1,49 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, img, strong,
+b, i, ol, ul, li, form, label,
+table, caption, article, aside, figcaption, figure,
+footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  color: inherit;
+  text-align: center;
+  list-style: none;
+}
+
+h1 {
+  display: block;
+  margin-top: 10px
+}
+
+body {
+  display: inline-block;
+  background-color: black;
+  color: yellow;
+  height: 750px;
+  width: 550px;
+  text-align: center;
+}
+
+.top {
+  display: inline-block;
+  width: 550px;
+  height: 200px;
+}
+
+.instructions {
+  color: red;
+  font-size: 18px;
+}
+
+.timer-box, .level-box, .best-time-box {
+  display: inline-block;
+  margin: 30px;
+  width: 120px;
+  height: auto;
+  font-size: 18px;
+}

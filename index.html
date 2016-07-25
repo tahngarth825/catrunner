@@ -1,10 +1,39 @@
 <html>
   <head>
     <title>Cat Runner</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
   </head>
 
   <body>
-    <canvas></canvas>
+    <div class="game-container">
+      <div class="top">
+
+        <h1> Cat Runner </h1>
+
+        <div class="level-box">
+          <label for="level">Level</label>
+          <div id="level"></div>
+        </div>
+
+        <div class="timer-box">
+          <label for="timer">Timer</label>
+          <div id="timer"></div>
+        </div>
+
+        <div class="best-time-box">
+          <label for="best-time">Best Time</label>
+          <div id="best-time"></div>
+        </div>
+
+        <ul class="instructions">
+          <li>Use WASD keys to move up/left/down/right</li>
+        </ul>
+
+      </div>
+
+      <canvas></canvas>
+    </div>
 
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
