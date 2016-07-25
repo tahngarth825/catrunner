@@ -13,8 +13,3 @@ There are currently three levels, each increasing in difficulty. Later levels ha
 
 ##Technical Features
 Cat Runner utilizes inheritance to DRY up code. The Car and Cat objects inherit from the MovingObject object. Unfortunately, this process overrides child prototype methods, so this forced me to define object methods on the Cat parent constructor function. There are instances where I had to deep clone arrays because the arrays in my constants file was being overridden. Most game constants are stored in the constants file to allow for flexible game modification and facilitate bug-finding.
-
-###Future Features
-1. Add trees to the middle grass patches so users cannot shoot straight up to the end
-2. Add timer, best time, level indicator, and game name
-3. Add a proper game-over and win-game screen, as well as a chance to restart if won
