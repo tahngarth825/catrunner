@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gamer";
+  src: url("./lib/assets/gamer_font.ttf") format("truetype");
+}
+
 html, body, div, span,
 h1, h2, h3, h4, h5, h6, p, img, strong,
 b, i, ol, ul, li, form, label,
@@ -7,17 +12,19 @@ footer, header, menu, nav, section {
   padding: 0;
   border: 0;
   outline: 0;
-  vertical-align: baseline;
+  vertical-align: top;
   background: transparent;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gamer', sans-serif;
   color: inherit;
   text-align: center;
   list-style: none;
+  font-size: 16px;
 }
 
 h1 {
+  font-size: 40px;
   display: block;
-  margin-top: 10px
+  margin: 10px 0;
 }
 
 body {
@@ -27,23 +34,36 @@ body {
   height: 750px;
   width: 550px;
   text-align: center;
+  margin: 50px;
 }
 
 .top {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 550px;
   height: 200px;
 }
 
 .instructions {
+  margin-top: 10px;
   color: red;
   font-size: 18px;
 }
 
+.top-info {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
 .timer-box, .level-box, .best-time-box {
   display: inline-block;
-  margin: 30px;
-  width: 120px;
+  width: auto;
   height: auto;
   font-size: 18px;
+}
+
+#level, #timer, #best-time {
+  margin-top: 5px;
 }
